@@ -1,0 +1,12 @@
+@import url("https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css");
+@import url("https://cdn.datatables.net/buttons/3.2.2/css/buttons.dataTables.css");
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#map { 
+    height: 380px; 
+}
+

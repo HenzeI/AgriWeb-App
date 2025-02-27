@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="dlYXudZTmoF71AUSlJKV">
+    <mxGraphModel dx="1050" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="awN_NkLCs6ngI9nsXboI-3" value="AgriWeb App - Plataforma Inteligente de Agricultura Local" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="570" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-11" value="Autenticación" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="awN_NkLCs6ngI9nsXboI-3">
+          <mxGeometry x="60" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-13" value="Verás tu posición en un mapa.&lt;div&gt;Obtiene datos metrológicos de su posición y en forma grafica. Puede consultar historicos de ciudades y comprobar si una imagen es un perro o no.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="awN_NkLCs6ngI9nsXboI-3">
+          <mxGeometry x="240" y="60" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.042;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="awN_NkLCs6ngI9nsXboI-3" source="awN_NkLCs6ngI9nsXboI-11" target="awN_NkLCs6ngI9nsXboI-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="awN_NkLCs6ngI9nsXboI-3" source="awN_NkLCs6ngI9nsXboI-15" target="awN_NkLCs6ngI9nsXboI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;startFill=0;" edge="1" parent="awN_NkLCs6ngI9nsXboI-3" source="awN_NkLCs6ngI9nsXboI-15" target="awN_NkLCs6ngI9nsXboI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-15" value="Cerrar Sesion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="awN_NkLCs6ngI9nsXboI-3">
+          <mxGeometry x="70" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-18" value="&amp;lt;&amp;lt; includes &amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="awN_NkLCs6ngI9nsXboI-3">
+          <mxGeometry x="172" y="196" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="awN_NkLCs6ngI9nsXboI-8" target="awN_NkLCs6ngI9nsXboI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awN_NkLCs6ngI9nsXboI-8" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
